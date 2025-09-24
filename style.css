@@ -189,12 +189,14 @@
     
     
     /* border: 2px solid black; */
-    height: 100vh;
+    height: auto;
     width: 100%;
     
     
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
+    padding: 80px 10px;
     align-items: center;
     justify-content: center;
     gap: 33px;
@@ -219,6 +221,7 @@
     
     /* border: 2px solid rgb(249, 5, 5); */
     height: 120vh;
+   
     width: 100%;
     position: relative;
     
@@ -331,12 +334,15 @@ h5, h1{
 .fi{
     /* border: 1px solid black; */
     height: 60vh;
+    min-height: auto;
     width: 22%;
 }
 .on1{
     /* border: 1px solid black; */
     height: 30vh;
     width: 100%;
+    min-height: auto;
+
     background-image: url(./7fff9f4c589c20ab5199177abbc1fee9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -345,6 +351,8 @@ h5, h1{
 .onee1{
     /* border: 1px solid black; */
     height: 38vh;
+    min-height: auto;
+
     width: 70%;
     background-image: url(./shopping-removebg-preview.png);
     background-size: cover;
@@ -354,6 +362,7 @@ h5, h1{
 .onee2{
     /* border: 1px solid black; */
 
+    min-height: auto;
     height: 35vh;
     width: 90%;
     background-image: url(./radio.png);
@@ -364,6 +373,7 @@ h5, h1{
 .onee3{
     /* border: 1px solid black; */
 
+    min-height: auto;
     height: 40vh;
     width: 100%;
     background-image: url(./videogame.png);
@@ -373,6 +383,7 @@ h5, h1{
 .onee4{
     /* border: 1px solid black; */
 
+    min-height: auto;
     height: 40vh;
     width: 90%;
     background-image: url(./ear.png);
@@ -382,6 +393,7 @@ h5, h1{
 .two1{
     margin-top: 50px;
     /* border: 1px solid black; */
+    min-height: auto;
     height: 20vh;
     width: 80%;
     color: black;
@@ -390,6 +402,7 @@ h5, h1{
 }
 .two2{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 25vh;
     width: 100%;
     color: black;
@@ -402,6 +415,7 @@ h5, h1{
     padding-top: 40px;
     /* border: 1px solid black; */
     height: 30vh;
+    min-height: auto;
     width: 100%;
     color: black;
     text-align: center;
@@ -411,6 +425,7 @@ h5, h1{
     padding-top: 40px;
 
     /* border: 1px solid black; */
+    min-height: auto;
     height: 20vh;
     width: 100%;
     color: black;
@@ -419,6 +434,7 @@ h5, h1{
 }
 .tw1{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 30vh;
     width: 100%;
     color: black;
@@ -426,12 +442,14 @@ h5, h1{
 
 .se{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 60vh;
     width: 22%;
 }
 .on2{
     /* border: 1px solid black; */
     height: 30vh;
+    min-height: auto;
     width: 100%;
     background-image: url(./zoba.jpg);
     background-size: cover;
@@ -440,16 +458,19 @@ h5, h1{
 }
 .tw2{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 30vh;
     width: 100%;
 }
 .th{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 60vh;
     width: 22%;
 }
 .on3{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 30vh;
     width: 100%;
     background-image: url(./027612f7-a718-4cd3-a85c-0cdadbc2ab48_rw_1920.jpg);
@@ -460,16 +481,19 @@ h5, h1{
 }
 .tw3{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 30vh;
     width: 100%;
 }
 .fo{
     /* border: 1px solid black; */
     height: 60vh;
+    min-height: auto;
     width: 22%;
 }
 .on4{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 30vh;
     width: 100%;
      background-image: url(./pubg-battlegrounds-19vwb.jpg);
@@ -479,6 +503,7 @@ h5, h1{
 }
 .tw4{
     /* border: 1px solid black; */
+    min-height: auto;
     height: 30vh;
     width: 100%;
 }
@@ -619,7 +644,7 @@ input{
     height: 60vh;
     width: 93%;
     position: absolute;
-    top: 4540px;
+    top: 4340px;
     left: 47px;
     background-color: black;
     z-index: -1;
@@ -631,13 +656,15 @@ input{
 }
 .five{
     /* border: 1px solid black; */
-    height: 110vh;
+    height: 110;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
     gap: 22px;
+    border: 90px 30px;
 
 }
 .newboss{
@@ -701,6 +728,16 @@ button{
     top: 140px;
     right: 90px;
 }
+/* .six .fi, .six .se, .six .th, .six .fo { */
+    /* flex: 1 1 45%; 2 columns layout for small screens */
+    /* margin: 0; */
+/* } */
+/* @media (max-width: 500px) {
+    .six .fi, .six .se, .six .th, .six .fo {
+        flex: 1 1 100%;
+    }
+} */
+
 
 @media (max-width: 395px){
     .gme{
@@ -765,3 +802,341 @@ button{
     }
     
 }
+
+@media (max-width: 600px) {
+    .secc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secc1, .secc2 {
+        width: 50%;
+        margin-top: 20px;
+        height: auto; 
+    }
+
+    .gamee {
+        padding-left: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .game {
+        padding-left: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+
+
+/* Third Section - Responsive Fix */
+
+
+.hi{
+    width: 30%;      /* desktop */
+    height: auto;    /* auto height so content fit ho */
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.hiilw1, .hiilw2, .hiilw3{
+    width: 100%;
+    height: 50vh;           /* desktop height */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* Text Box */
+.hii2{
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px){
+    .hi{
+        width: 80%;          /* mobile: one column layout */
+        margin-bottom: 20px;
+    }
+    .hiilw1, .hiilw2, .hiilw3{
+        height: 40vh;        /* reduce height for mobile */
+    }
+    .hii2 h2, .hii2 h4{
+        font-size: 18px;     /* scale text for mobile */
+    }
+}
+
+@media (max-width: 480px){
+    .hi{
+        width: 100%;          /* full width mobile */
+    }
+    .hiilw1, .hiilw2, .hiilw3{
+        height: 30vh;
+    }
+    .hii2 h2{
+        font-size: 16px;
+    }
+    .hii2 h4{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .four {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .four .top {
+        font-size: large;
+        text-align: center;
+    }
+
+    .boximg {
+        width: 95%;
+        height: 50vh;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .four {
+        padding: 20px 10px;
+    }
+
+    .four .top {
+        font-size: medium;
+    }
+
+    .boximg {
+        width: 100%;
+        height: 35vh;
+    }
+}
+
+
+
+
+/* Fifth section responsive adjustments */
+@media (max-width: 1024px) {
+    .five {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto; /* Content ke hisaab se adjust */
+    }
+
+    .fi, .se, .th, .fo {
+        width: 90%;       /* Full width for smaller screens */
+        height: auto;     /* Auto height for content */
+        margin-bottom: 20px;
+    }
+
+    .onee1, .onee2, .onee3, .onee4 {
+        width: 100%;
+        height: 180px;   /* Reduced height for smaller screens */
+        background-size: cover;
+    }
+
+    .two1, .two2, .two3, .two4 {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .fi, .se, .th, .fo {
+        width: 100%;
+        margin-bottom: 15px;  /* thoda kam kar diya */
+    }
+
+    .onee1, .onee2, .onee3, .onee4 {
+        height: 150px;   /* aur chhota height for mobile */
+    }
+
+    .two1, .two2, .two3, .two4 {
+        font-size: 14px; /* Text chhota kar do */
+    }
+    .thhi, .fiir, .seec{
+        display: none;
+    }
+    .topp button{
+        display: none;
+    }
+    .topp input{
+        display: none;
+    }
+    .lower{
+        display: none;
+    }
+}
+
+
+
+/* Sixth section responsive adjustments */
+@media (max-width: 1024px) {
+    .six {
+        flex-wrap: wrap; /* Boxes next line me chale jaayein */
+        justify-content: center;
+        gap: 20px;
+        height: auto; /* Auto height for content */
+        padding: 20px 0;
+    }
+
+    .fi, .se, .th, .fo {
+        width: 45%;   /* Do boxes per row */
+        height: auto; /* Auto height */
+        margin-bottom: 20px;
+    }
+
+    .on1, .on2, .on3, .on4 {
+        height: 200px; /* Chhoti height for images */
+        background-size: cover;
+    }
+
+    .tw1, .tw2, .tw3, .tw4 {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px; /* Chhota text for medium screens */
+    }
+
+    .boss {
+        position: relative; /* Absolute hata ke relative kar diya */
+        text-align: center;
+        margin-bottom: 20px;
+        top: 0;
+        padding-top: 90px;
+    }
+    .on1, .tw1, .on2, .tw2, .on3, .tw3, .on4, .tw4{
+        width: 150%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .fi{
+        padding-top: 170px;
+    }
+    .fi, .se, .th, .fo {
+        width: 50%; /* Single column for mobile */
+        margin-bottom: 15px;
+        /* height: auto; */
+        /* padding-top: 170px; */
+    }
+
+    .on1, .on2, .on3, .on4 {
+        height: 270px; /* Aur chhoti height for mobile */
+    }
+
+    .tw1, .tw2, .tw3, .tw4 {
+        font-size: 12px; /* Text aur chhota kar diya */
+        padding: 5px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .bott {
+        flex-direction: column; /* columns vertically stack honge */
+        height: auto;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .first, .second, .fiv, .fourth {
+        width: 100%; /* full width le lenge */
+        text-align: center; /* text center align */
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .topp {
+        flex-direction: column; /* newsletter section vertically */
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .topp input {
+        width: 80%; /* input field chhota karenge */
+        margin-bottom: 10px;
+    }
+
+    .topp button {
+        width: 50%; /* button chhota aur center */
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .lower {
+        width: 95%;
+        left: 10px;
+        top: auto;
+        height: auto;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .foot {
+        height: auto;
+    }
+
+    .bott h1, .bott h4 {
+        font-size: small; /* text chhota karenge */
+    }
+}
+
+
+
+
+/* Existing six section media query improvements */
+@media (max-width: 800px) {
+    .six {
+        flex-wrap: wrap; /* small screens me items wrap ho jaye */
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .six .fi, .six .se, .six .th, .six .fo {
+        flex: 1 1 45%; /* 2 columns layout */
+        min-height: 250px; /* image ke liye space */
+    }
+
+    .six .fi div, .six .se div, .six .th div, .six .fo div {
+        flex: 1; /* image aur text equal height maintain kare */
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .six .fi, .six .se, .six .th, .six .fo {
+        flex: 1 1 100%; /* single column layout */
+        min-height: 200px; /* image ke liye enough space */
+    }
+
+    .six .fi div, .six .se div, .six .th div, .six .fo div {
+        flex: 1;
+    }
+}
+
+
