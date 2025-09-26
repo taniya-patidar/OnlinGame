@@ -39,6 +39,26 @@
     padding-bottom: 16px;
 
 }
+.para4 p:hover{
+    font-size: larger;
+    cursor: pointer;
+    color: orange;
+    text-shadow: 0ex;
+}
+#firstpage h1:hover{
+    color: orange;
+
+}
+.hii2 h2:hover{
+    cursor: pointer;
+    font-size: xx-large;
+    /* text-decoration-line: underline; */
+    
+}
+button:hover{
+    cursor: pointer;
+    font-size: larger;
+}
 
 
     
